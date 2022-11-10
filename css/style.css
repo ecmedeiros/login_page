@@ -52,6 +52,32 @@ body {
     border-color: #6C63FF;
 }
 
+.btn.btn-primary {
+    width: 100%;
+}
+
+#link-container {
+    text-align: center;
+    padding: 20px 0px;
+}
+
+/* Responsividade */
+@media(min-width: 768px){
+    #link-container {
+        width: 50%;
+        padding: 50px;
+    }
+
+    .btn.btn-primary {
+        width: auto;
+    }
+
+    #form-container {
+        margin: 50px auto;
+        padding: 50px;
+    }
+}
+
 /* Imagem */
 
 .row.align-items-center {
@@ -60,7 +86,3 @@ body {
     padding: 50px 0;
 }
 
-#link-container {
-    text-align: center;
-    padding: 50px;
-}
